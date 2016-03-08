@@ -224,7 +224,8 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "calc"
     },
     sudo_users = {182420116,207534428,90971889},--Sudo users
     disabled_channels = {},
@@ -333,6 +334,9 @@ Will kick user
 
 !about
 Group description
+
+!calc
+calc [20+10|20*10|20-10]
 
 !setphoto
 Set and locks group photo
